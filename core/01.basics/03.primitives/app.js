@@ -1,0 +1,8 @@
+console.log('My name is Shahar')
+console.log('I am ' + 'happy')
+console.log(07349)
+console.log(10 + 7)
+console.log(268379303 - 8964)
+console.log(55 * 92)
+console.log(60 / 5)
+console.log(false)
