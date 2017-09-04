@@ -6,4 +6,4 @@ console.log(myAge)
 
 myAge = 38
 
-console.log(myAge)
+console.log('My name is ' + myName + ' and I\'m ' + myAge + ' years old')
