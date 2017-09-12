@@ -12,4 +12,6 @@ function outerFunction() {
   }
 }
 
-outerFunction()()
+const theClosure = outerFunction()
+
+console.log(theClosure)
