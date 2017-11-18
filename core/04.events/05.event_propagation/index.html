@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jsf event propagation</title>
+    <style media="screen" type="text/css">
+      .box {
+        color: black;
+      }
+      .box1 {
+        background-color: rgb(61, 205, 46);
+        padding: 2em;
+        width: 30%;
+      }
+      .box2 {
+        background-color: rgb(210, 253, 52);
+        margin-top: 1em;
+        padding: 2em;
+      }
+      .box3 {
+        background-color: rgb(161, 230, 134);
+        margin-top: 1em;
+        padding: 2em;
+      }
+    </style>
+    </head>
+  <body>
+    <h1>Lesson 05 Event Propagation</h1>
+    <div class="box box1">
+      <span>Box 1</span>
+      <div class="box box2">
+        <span>Box 2</span>
+        <div class="box box3"> <span>Box 3</span> </div>
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
