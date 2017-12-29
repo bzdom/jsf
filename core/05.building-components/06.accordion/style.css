@@ -1,0 +1,31 @@
+h2 {
+  display: inline;
+}
+
+.accordion_content {
+  display: none;
+}
+
+.accordion.is-open .accordion_content {
+  display: grid;
+}
+
+.accordion_indicator {
+  display: inline;
+}
+
+.indicator_plus {
+  display: initial;
+}
+
+.indicator_minus {
+  display: none;
+}
+
+.accordion.is-open .indicator_plus {
+  display: none;
+}
+
+.accordion.is-open .indicator_minus {
+  display: initial;
+}
