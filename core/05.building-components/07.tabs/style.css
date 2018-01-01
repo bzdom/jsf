@@ -1,0 +1,35 @@
+.tab-container a {
+  color: #000;
+}
+
+.tab-container a:visited {
+  color: #000;
+}
+
+.tab {
+  display: inline-block;
+}
+
+.tab-container:not(.is-active) .tab__icon {
+
+}
+
+.tab-container .tab.is-active a {
+  color: blue;
+}
+
+.tab-container .tab.is-active a:visited {
+  color: blue;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.is-active {
+  display: block;
+}
+
+.tab > a * {
+  pointer-events: none;
+}
